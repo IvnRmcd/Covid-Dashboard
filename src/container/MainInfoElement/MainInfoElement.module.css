@@ -1,0 +1,9 @@
+.main{
+    display: flex;
+    border: 1px solid red;
+    width: 1200px;
+    height: 850px;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+

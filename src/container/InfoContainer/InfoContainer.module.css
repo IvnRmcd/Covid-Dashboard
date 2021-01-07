@@ -1,0 +1,9 @@
+.info_area {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 965px;
+    background-color: #F2F4F5;
+    border: 1px solid red;
+    padding: 25px;
+}

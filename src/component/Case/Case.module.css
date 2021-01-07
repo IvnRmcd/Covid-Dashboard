@@ -1,0 +1,46 @@
+h3{
+    color: #939191;
+    font-family: 'Asap', sans-serif;
+}
+
+.case_information{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+.case_number_font{
+    font-size: 25px;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+.arrow_up {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid red;
+    position: relative;
+    top: -1.5em;
+    font-size: 80%;
+  }
+
+
+  .arrow_down {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;  
+    border-top: 20px solid green;
+    position: relative;
+    top: -1.5em;
+    font-size: 80%;
+  }
