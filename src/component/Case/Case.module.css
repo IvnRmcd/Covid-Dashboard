@@ -1,6 +1,7 @@
 h3{
     color: #939191;
     font-family: 'Asap', sans-serif;
+    text-transform: capitalize;
 }
 
 .case_information{

@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Case.module.css";
-import Spinner from "../Spinner/Spinner";
 
 export default function Case(props) {
   function getHigherValue(objectCount) {
@@ -11,27 +10,25 @@ export default function Case(props) {
     if (highestValueIndex === 0) {
       return (
         <React.Fragment>
-          {highestValue} <span className={classes.arrow_down}></span>
+          {highestValue.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}{" "}
+          <span className={classes.arrow_down}></span>
         </React.Fragment>
       );
     }
     return (
       <React.Fragment>
-        {highestValue} <span className={classes.arrow_up}></span>
+        {highestValue.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}{" "}
+        <span className={classes.arrow_up}></span>
       </React.Fragment>
     );
   }
 
   return (
     <div className={classes.case_information}>
-      {props.isloading ? (
-        <Spinner />
-      ) : (
-        <div className={classes.case_number_font}>
-          <h3>{props.heading}</h3>
-          {getHigherValue(props.stateArray)}
-        </div>
-      )}
+      <div className={classes.case_number_font}>
+        <h3>{props.heading}</h3>
+        {getHigherValue(props.stateArray)}
+      </div>
     </div>
   );
 }
