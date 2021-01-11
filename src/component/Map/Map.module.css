@@ -1,0 +1,18 @@
+.Map{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.Headings {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px ;
+    font-weight: bold;
+}

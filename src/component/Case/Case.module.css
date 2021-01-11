@@ -1,6 +1,6 @@
 h3{
     color: #939191;
-    font-family: 'Asap', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: capitalize;
 }
 
@@ -19,7 +19,8 @@ h3{
 .case_number_font{
     font-size: 25px;
     color: black;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 
 

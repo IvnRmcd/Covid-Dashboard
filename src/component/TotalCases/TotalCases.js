@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Case from "../Case/Case";
 import Spinner from "../Spinner/Spinner";
+import classes from "./TotalCases.module.css";
 
 export default function TotalCases() {
   const [cases, setCases] = useState({});
@@ -24,8 +25,8 @@ export default function TotalCases() {
   });
 
   return (
-    <React.Fragment>
-      {isloading ? <Spinner /> : <React.Fragment> {caseInfo}</React.Fragment>};
-    </React.Fragment>
+    <div className={classes.Dashboard_A}>
+      {isloading ? <Spinner /> : <React.Fragment> {caseInfo}</React.Fragment>}
+    </div>
   );
 }

@@ -1,9 +1,9 @@
 .main{
     display: flex;
-    border: 1px solid red;
-    width: 1200px;
+    border: 1px solid blue;
+    flex-direction: column;
+    width: 1350px;
     height: 850px;
     margin: 20px;
-    justify-content: space-evenly;
 }
 
