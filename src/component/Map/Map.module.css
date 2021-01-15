@@ -1,7 +1,6 @@
 .Map{
     background-color: white;
-    border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 10px; 
     display: flex;
     flex-direction: column;
     height: 600px;
@@ -15,4 +14,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px ;
     font-weight: bold;
+}
+
+.leaflet-container {
+    background-color:white;
 }

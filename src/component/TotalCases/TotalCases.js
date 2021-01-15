@@ -20,7 +20,7 @@ export default function TotalCases() {
 
   const caseInfo = Object.entries(cases).map((item) => {
     return (
-      <Case isloading={isloading} heading={item[0]} stateArray={item[1]} />
+      <Case isloading={isloading} heading={item[0]} stateArray={item[1]} key={Math.random() *10}/>
     );
   });
 
